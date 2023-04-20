@@ -1,0 +1,13 @@
+[package]
+name = "liteyear"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["example", "macro", "cargo-liteyear"]
+
+[dependencies]
+displaydoc = "0.2"
+thiserror = "1.0"
+
+liteyear-macro = { path = "macro" }

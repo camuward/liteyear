@@ -1,0 +1,23 @@
+[package]
+name = "cargo-liteyear"
+version = "0.1.0"
+edition = "2021"
+build = "src/build.rs"
+
+[dependencies]
+clap = { version = "4.2", features = ["derive"] }
+color-eyre = "0.6"
+displaydoc = "0.2"
+eyre = "0.6"
+syn = { version = "2.0", features = ["full"] }
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tokio = { version = "1.27", features = ["full"] }
+
+liteyear = { path = ".." }
+itertools = "0.10.5"
+
+[dependencies.rustc-plugin]
+git = "https://github.com/cognitive-engineering-lab/rustc-plugin"
+tag = "nightly-2023-04-12-v0.1.4"
