@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [workspace]
-members = ["example", "macro", "cargo-liteyear"]
+members = ["cargo-liteyear"]
 
 [dependencies]
 displaydoc = "0.2"

@@ -5,3 +5,5 @@ fn fac(n: u32) -> u32 {
         n => n * fac(n - 1),
     }
 }
+
+fn main() {}

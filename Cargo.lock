@@ -118,7 +118,7 @@ dependencies = [
  "eyre",
  "itertools",
  "liteyear",
- "rustc-plugin",
+ "rustc_plugin",
  "syn",
  "thiserror",
  "tokio",
@@ -398,13 +398,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "liteyear-example"
-version = "0.0.0"
-dependencies = [
- "liteyear",
-]
-
-[[package]]
 name = "liteyear-macro"
 version = "0.0.0"
 dependencies = [
@@ -565,9 +558,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d626bb9dae77e28219937af045c257c28bfd3f69333c512553507f5f9798cb76"
 
 [[package]]
-name = "rustc-plugin"
-version = "0.1.4"
-source = "git+https://github.com/cognitive-engineering-lab/rustc-plugin?tag=nightly-2023-04-12-v0.1.4#968b4f9b4c34f0c14b5777b10f1a2fc112c7863f"
+name = "rustc_plugin"
+version = "0.6.0-nightly-2023-04-12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "79b172d929863ef84797b5592af9b58160f954a484938991f5a6b2829e3c163a"
 dependencies = [
  "cargo_metadata",
  "log",
